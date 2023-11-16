@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <!-- Cabeçalho da Página -->
+  <header>
+    <h1>Home</h1>
+
+    <!-- Menu de Navegação -->
+    <nav>
+      <!-- Links -->
+      <a href="https://www.google.com" target="_blank">Google</a>
+      <a href="https://www.soulcode.com">SoulCode</a>
+      <a href="./login.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal da Página -->
+  <main>
+    <!-- Subseção da Página -->
+    <section>
+      <h2>Sobre este site</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quasi numquam similique incidunt optio accusamus sequi harum, vero facilis hic. Explicabo ut minima nam dolorum, corrupti voluptate. Provident, earum soluta.
+      </p>
+    </section>
+
+    <section>
+      <h2>Depoimentos</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus consectetur tempore soluta, amet perspiciatis voluptates dolores animi tempora deleniti molestiae sit corporis earum rerum velit maiores laboriosam ullam odit praesentium.
+      </p>
+    </section>
+
+    <section>
+      <h2>Formulário</h2>
+      <!-- Formulário da Página -->
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"> <br>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data"> <br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" disabled> <br>
+
+        <label for="email">E-mail*:</label>
+        <input type="email" id="email" name="email" required> <br>
+
+        <label for="senha">Senha*:</label>
+        <input type="password" id="senha" name="senha" required> <br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"> <br>
+
+        <label for="numero">Numero:</label>
+        <input type="number" id="numero" name="numero" min="0" max="130"> <br>
+
+        <label for="opc1">Opção 1:</label>
+        <input type="radio" id="opc1" name="opc">
+        <label for="opc2">Opção 2:</label>
+        <input type="radio" id="opc2" name="opc"> <br>
+
+        <label for="marcar">Marcar</label>
+        <input type="checkbox" id="marcar" name="marcar"> <br>
+
+        <label for="texto">Texto:</label>
+        <textarea id="texto" name="texto"></textarea> <br>
+
+        <label for="selecao">Seleção:</label>
+        <select id="selecao" name="selecao">
+          <option value="">Seleção 1</option>
+          <option value="">Seleção 2</option>
+        </select> <br>
+
+        <button>Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé da Página -->
+  <footer>
+    <p>SoulCode.com Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
