@@ -1,0 +1,41 @@
+/* Seletor -> Configuração que indica o elemento de estilo */
+
+h1 {
+  /* propriedade: valor; */
+  color: seagreen;
+  font-size: 100px;
+}
+
+p {
+  color: blue;
+}
+
+strong,
+em {
+  color: red;
+}
+
+p img {
+  border-radius: 100px;
+}
+
+section p {
+  color: green;
+}
+
+/* 
+  * id - identificação - não pode se repetir no html
+  * class - classes - pode se repetir no html
+*/
+
+#tit-1 {
+  font-size: 60px;
+}
+
+#tit-2 {
+  font-size: 40px;
+}
+
+.cor-blue {
+  color: darkblue;
+}
